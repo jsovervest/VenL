@@ -46,6 +46,7 @@ a:active {
   border-color: #f9f9f9;
 }
 #footer-wrapper {
+  color: #3b3b3b !important;
   background: #292929;
 }
 .region-header,
