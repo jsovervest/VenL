@@ -33,7 +33,21 @@ $info = array(
         'titleslogan' => '#fffeff',
       ),
     ),
-    'firehouse' => array(
+    'VenL' => array(
+      'title' => t('Verkeer & Leefomgeving'),
+      'colors' => array(
+        'bg' => '#d9ffb0',
+        'link' => '#0c4c00',
+        'top' => '#d9ffb0',
+        'bottom' => '#d9ffb0',
+        'text' => '#3b3b3b',
+        'sidebar' => '#d9ffb0',
+        'sidebarborders' => '#d0d0d0',
+        'footer' => '#d9ffb0',
+        'titleslogan' => '#0c4c00',
+      ),
+    ),
+     'firehouse' => array(
       'title' => t('Firehouse'),
       'colors' => array(
         'bg' => '#ffffff',
