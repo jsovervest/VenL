@@ -12,6 +12,8 @@ body.overlay {
   background-color: #ffffff;
   color: #3b3b3b;
 }
+div#content {
+}
 .comment .comment-arrow {
   border-color: #ffffff;
 }

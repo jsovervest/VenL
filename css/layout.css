@@ -18,6 +18,11 @@
   margin-right: auto;
   position: relative;
 }
+
+div#main {
+  margin-top: 0px;
+}
+
 #content,
 .sidebar,
 .region-triptych-first,
@@ -30,6 +35,23 @@
   display: inline;
   position: relative;
   float: left;
+}
+#header a#logo {
+	width: 19.25% !important;
+	/* padding: 0px 0px 0px 0px !important; */
+	padding-right: 0px !important;
+	padding-left: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#name-and-slogan {
+	height: 5px;
+	margin: 0 0 30px 0px !important;
+	padding-left: 15px;
+}
+#main-menu {
+}
+#content {
 }
 #header div.section {
   position: relative;
@@ -71,7 +93,7 @@
   right: 0;
 }
 .sidebar {
-  width: 24.25%;
+  width: 19.25%;
 }
 .two-sidebars #sidebar-second {
   right: -1.5%;
@@ -117,3 +139,45 @@
 #footer-wrapper {
   padding: 35px 0 30px;
 }
+
+/* De strepen */
+div.streep-houder {
+  margin-left: 0px;
+}
+
+div.streep {
+  position: absolute;
+  background-color: white;
+  z-index: 100;
+}
+
+div.vertikaal {
+  left: 19.25%;
+  height: 45px;
+  width: 4px;
+}
+
+div.horizontaal {
+  top: -5px;
+  height: 4px;
+  line-height: 4px;
+  overflow: none;
+  width: 4%;
+}
+
+/* zijlijnPlaatje */
+img.zijlijnPlaatje {
+  width: 100%;
+}
+
+/* Title */
+div#name-and-slogan {
+  display: none;
+}
+div#siteTitle {
+  background-image: url(../images/VerkeerEnLeefomgeving.nl.jpg);
+  width: 550px;
+  height: 63px;
+  float: left;
+}
+
