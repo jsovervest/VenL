@@ -104,6 +104,9 @@ div#main {
 #featured .block {
   margin: 0 15px;
 }
+.sidebar .block {
+  border: none !important;
+}
 #messages div.section,
 #content .section,
 .sidebar .section {
